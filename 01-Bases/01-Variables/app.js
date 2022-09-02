@@ -14,3 +14,9 @@ console.log(`Mi nombre es: ${fullName}`);
 const PI = 3.141592 // type float
 let street = 315 // type int 
 let istTrue = true // type boolean
+
+
+
+
+/******************** Ejercicios*******************/
+
