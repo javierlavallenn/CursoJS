@@ -1,6 +1,6 @@
 // Condicionales
 
-/*let email = "Tomas@gmail.com";
+let email = "Tomas@gmail.com";
 
 // Esto es una condicion
 
@@ -38,6 +38,6 @@ if (hunger != false) {
 if (hunger != true) {
   console.log("Hunger es igual a true");
 }
-*/
+
 /**************************Ejercicios***************************/
 
