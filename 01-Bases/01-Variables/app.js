@@ -89,5 +89,5 @@ console.log(`El promedio de notas es: ${ promedio}`);
 // 5) Crear un conversor de medidas. Pedirle al usuario que ingrese una medida en metros y 
 // pasarlo a pies, centimetros y pulgadas. Mostrar por consola los tres resultados.
 
-
+let medidas = parseInt(prompt('Ingrese la medida en metros'));
 
