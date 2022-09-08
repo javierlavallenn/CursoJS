@@ -128,9 +128,10 @@ console.log(`El resultado final es: ${sumaTotal}`);
 // 7) Armar un conversor de minutos a segundos. Solicitar al usuario un número de minutos y 
 // mostrar por alert la cantidad de segundos a la que equivale.
 
+// Creamos dos variables, una para pedirle al usuario que ingrese los minutos y la otra para el resultado de la multiplicacion
 let conversor = parseInt(prompt('Ingrese una cantidad de minutos'));
 let resultados = conversor *60;
-
+// Creamos el alert mostrando los resultados con un mensaje en pantalla
 alert (`La cantidad de segundos es: ${resultados}`);
 
 
