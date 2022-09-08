@@ -89,5 +89,22 @@ console.log(`El promedio de notas es: ${ promedio}`);
 // 5) Crear un conversor de medidas. Pedirle al usuario que ingrese una medida en metros y 
 // pasarlo a pies, centimetros y pulgadas. Mostrar por consola los tres resultados.
 
-let medidas = parseInt(prompt('Ingrese la medida en metros'));
+let metros = parseInt(prompt('Ingrese la medida en metros'));
+// Mostramos por consola  las medidas en metros
+console.log(`La medida en metros es: ${metros}`);
+
+let pies = metros * 3;
+// Mostramos por consola las medidas en pies
+console.log(`La medida en pies es: ${pies}`);
+
+let cm = metros * 100;
+// Mostramos por consola la medidas en centimetros
+console.log(`La medida en centimetros es: ${cm}`);
+
+let pulgadas = metros * 39
+// Mostramos por consola las medidas en pulgadas
+console.log( `La medida en pulgadas es: ${pulgadas}`);
+
+
+
 
