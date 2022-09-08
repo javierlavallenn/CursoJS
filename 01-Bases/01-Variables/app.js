@@ -106,5 +106,24 @@ let pulgadas = metros * 39
 console.log( `La medida en pulgadas es: ${pulgadas}`);
 
 
+// 6) Solicitar al usuario dos números y mostrar el resultado de la suma. Luego solicitar 
+// al usuario un tercer número y multiplicarlo por el resultado anterior. Mostrar el resultado final.
+
+let n1 = parseInt(prompt('Ingrese un numero'));
+let n2 = parseInt(prompt('Ingrese otro nuemero'));
+let resultado = n1 + n2;
+// Mostramos el resultado de la suma por consola
+console.log(`EL resultado de la suma es: ${resultado}`);
+
+// Creamos una nueva variable y pedimos al usuario un tercer numero
+let n3 = parseInt(prompt('Ingrese un tercer numero'));
+
+// Creamos la variable sumaTotal para sumar el resultado de n1 + n2 y multiplicarlo por n3
+let sumaTotal = n1 + n2 * n3
+
+// Mostramos por consola la suma total
+console.log(`El resultado final es: ${sumaTotal}`);
+
+
 
 
